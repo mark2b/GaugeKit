@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'GaugeKit/**/*'
+  s.exclude_files = 'GaugeKit/Info.plist'
 
   s.public_header_files = 'GaugeKit/**/*.h'
   s.frameworks = 'UIKit', 'QuartzCore'
