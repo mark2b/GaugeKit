@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		1C9404D01B31CF85001BF122 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9404D41B31CF85001BF122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9404D51B31CF85001BF122 /* GaugeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaugeKit.h; sourceTree = "<group>"; };
 		1C9404DB1B31CF85001BF122 /* GaugeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9404E11B31CF85001BF122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		1C9404D31B31CF85001BF122 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C9404D41B31CF85001BF122 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
