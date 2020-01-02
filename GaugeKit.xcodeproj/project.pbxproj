@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C9404D61B31CF85001BF122 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9404D51B31CF85001BF122 /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C9404DC1B31CF85001BF122 /* GaugeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9404D01B31CF85001BF122 /* GaugeKit.framework */; };
-		1C9404E31B31CF85001BF122 /* GaugeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9404E21B31CF85001BF122 /* GaugeKitTests.swift */; };
 		1C9405221B31D1BE001BF122 /* GaugeHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94051E1B31D1BE001BF122 /* GaugeHalf.swift */; };
 		1C9405231B31D1BE001BF122 /* CAShapeLayer+oval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94051F1B31D1BE001BF122 /* CAShapeLayer+oval.swift */; };
 		1C9405241B31D1BE001BF122 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9405201B31D1BE001BF122 /* Gauge.swift */; };
@@ -19,27 +17,15 @@
 		D66F51CE3D9204261BCE1C87 /* GaugeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66F53D8674BBD2D847BDB75 /* GaugeLine.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1C9404DD1B31CF85001BF122 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1C9404C71B31CF85001BF122 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C9404CF1B31CF85001BF122;
-			remoteInfo = GaugeKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1C9404D01B31CF85001BF122 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9404D41B31CF85001BF122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9404D51B31CF85001BF122 /* GaugeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaugeKit.h; sourceTree = "<group>"; };
-		1C9404DB1B31CF85001BF122 /* GaugeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C9404E11B31CF85001BF122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C9404E21B31CF85001BF122 /* GaugeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeKitTests.swift; sourceTree = "<group>"; };
 		1C94051E1B31D1BE001BF122 /* GaugeHalf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeHalf.swift; sourceTree = "<group>"; };
 		1C94051F1B31D1BE001BF122 /* CAShapeLayer+oval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+oval.swift"; sourceTree = "<group>"; };
 		1C9405201B31D1BE001BF122 /* Gauge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
 		1C9405211B31D1BE001BF122 /* GaugeCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeCircle.swift; sourceTree = "<group>"; };
+		5D49D34623BDA61200B3C1AF /* GaugeKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GaugeKit.podspec; sourceTree = SOURCE_ROOT; };
 		850835531CAE20BE001A0DDB /* UIColor+Blend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Blend.swift"; sourceTree = "<group>"; };
 		856D35171CACBE930007D5C6 /* Gauge+Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Gauge+Animations.swift"; sourceTree = "<group>"; };
 		D66F53D8674BBD2D847BDB75 /* GaugeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaugeLine.swift; sourceTree = "<group>"; };
@@ -53,14 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C9404D81B31CF85001BF122 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C9404DC1B31CF85001BF122 /* GaugeKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				1C9404D21B31CF85001BF122 /* GaugeKit */,
-				1C9404DF1B31CF85001BF122 /* GaugeKitTests */,
 				1C9404D11B31CF85001BF122 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				1C9404D01B31CF85001BF122 /* GaugeKit.framework */,
-				1C9404DB1B31CF85001BF122 /* GaugeKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,24 +77,8 @@
 		1C9404D31B31CF85001BF122 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D49D34623BDA61200B3C1AF /* GaugeKit.podspec */,
 				1C9404D41B31CF85001BF122 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1C9404DF1B31CF85001BF122 /* GaugeKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				1C9404E21B31CF85001BF122 /* GaugeKitTests.swift */,
-				1C9404E01B31CF85001BF122 /* Supporting Files */,
-			);
-			path = GaugeKitTests;
-			sourceTree = "<group>";
-		};
-		1C9404E01B31CF85001BF122 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C9404E11B31CF85001BF122 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,24 +115,6 @@
 			productReference = 1C9404D01B31CF85001BF122 /* GaugeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1C9404DA1B31CF85001BF122 /* GaugeKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C9404E91B31CF85001BF122 /* Build configuration list for PBXNativeTarget "GaugeKitTests" */;
-			buildPhases = (
-				1C9404D71B31CF85001BF122 /* Sources */,
-				1C9404D81B31CF85001BF122 /* Frameworks */,
-				1C9404D91B31CF85001BF122 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C9404DE1B31CF85001BF122 /* PBXTargetDependency */,
-			);
-			name = GaugeKitTests;
-			productName = GaugeKitTests;
-			productReference = 1C9404DB1B31CF85001BF122 /* GaugeKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -185,10 +127,6 @@
 				ORGANIZATIONNAME = "Petr Korolev";
 				TargetAttributes = {
 					1C9404CF1B31CF85001BF122 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0800;
-					};
-					1C9404DA1B31CF85001BF122 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0800;
 					};
@@ -208,20 +146,12 @@
 			projectRoot = "";
 			targets = (
 				1C9404CF1B31CF85001BF122 /* GaugeKit */,
-				1C9404DA1B31CF85001BF122 /* GaugeKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1C9404CE1B31CF85001BF122 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C9404D91B31CF85001BF122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,23 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C9404D71B31CF85001BF122 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C9404E31B31CF85001BF122 /* GaugeKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1C9404DE1B31CF85001BF122 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1C9404CF1B31CF85001BF122 /* GaugeKit */;
-			targetProxy = 1C9404DD1B31CF85001BF122 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1C9404E41B31CF85001BF122 /* Debug */ = {
@@ -411,40 +325,6 @@
 			};
 			name = Release;
 		};
-		1C9404EA1B31CF85001BF122 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GaugeKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SW.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1C9404EB1B31CF85001BF122 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GaugeKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SW.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,15 +342,6 @@
 			buildConfigurations = (
 				1C9404E71B31CF85001BF122 /* Debug */,
 				1C9404E81B31CF85001BF122 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1C9404E91B31CF85001BF122 /* Build configuration list for PBXNativeTarget "GaugeKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C9404EA1B31CF85001BF122 /* Debug */,
-				1C9404EB1B31CF85001BF122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
